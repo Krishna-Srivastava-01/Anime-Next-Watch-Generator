@@ -28,7 +28,7 @@ function displayAnime(animeList) {
     card.innerHTML = `
       <img src="${anime.images.jpg.image_url}">
       <h3>${anime.title}</h3>
-      <p>⭐ ${anime.score || "N/A"}</p>
+      <p> ${anime.score || "N/A"}</p>
       <button class="toggle-btn">View Synopsis</button>
       <p class="synopsis" style="display:none;">
         ${anime.synopsis || "No description"}
